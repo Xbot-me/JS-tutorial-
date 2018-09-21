@@ -4,7 +4,8 @@
   "description": "js prosject",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "webpack --mode development",
+    "build" :"webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "webpack": "^4.19.1"
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
   }
 }
