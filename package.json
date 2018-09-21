@@ -4,8 +4,9 @@
   "description": "js prosject",
   "main": "index.js",
   "scripts": {
-    "dev" : "webpack --mode development",
-    "build" :"webpack --mode production"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --start "
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,17 @@
   },
   "homepage": "https://github.com/Xbot-me/JS-tutorial-#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
   }
 }
